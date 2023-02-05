@@ -1,5 +1,6 @@
 function greetuser(greetingPrefix, userName = "user") {
-  console.log(greetingPrefix + " " + userName + "!");
+  // console.log(greetingPrefix + " " + userName + "!");
+  console.log(`${greetingPrefix} ${userName}!`);
 }
 
 greetuser("Hi", "Jeong");
@@ -17,3 +18,5 @@ function sumUp(...numbers) {
 const inputNumbers = [1, 5, 5, 10];
 
 console.log(sumUp(inputNumbers));
+
+console.log(sumUp);
