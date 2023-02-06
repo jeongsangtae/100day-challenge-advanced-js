@@ -34,7 +34,6 @@ developer.describe();
 cook.describe();
 
 // Array Destructuring
-
 const arrays = ["a", "b", "c", "d", "e"];
 
 const [first, second, third] = arrays;
