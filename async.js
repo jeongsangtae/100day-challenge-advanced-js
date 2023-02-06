@@ -4,6 +4,9 @@ function readFile() {
   let fileData;
   // callback
   // fs.readFile("data.txt", function (error, fileData) {
+  // if (error) {
+  //   // ...
+  // }
   //   console.log("File parsing done!");
   //   console.log(fileData.toString());
   // });
@@ -15,7 +18,10 @@ function readFile() {
       console.log(fileData.toString());
       // return anotherAsyncOperation
     })
-    .then(function () {});
+    .then(function () {})
+    .catch(function (error) {
+      console.log(error);
+    });
 
   console.log("Hi there!");
 }
